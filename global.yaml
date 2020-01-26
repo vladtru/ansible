@@ -1,0 +1,8 @@
+---
+
+    control.example.com: 
+      private_ip: 192.168.4.200
+    ansible1.example.com:
+      private_ip: 192.168.4.201
+    ansible2.example.com:
+      private_ip: 192.168.4.202
