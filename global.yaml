@@ -1,7 +1,7 @@
 ---
 
     control.example.com: 
-      role: control
+      role: base::control
       private_ip: 192.168.4.200
       environment: prod
     ansible1.example.com:
@@ -21,6 +21,6 @@
       private_ip: 192.168.4.203
       environment: test
     ansible5.example.com:
-      role: control
+      role: base::control
       private_ip: 192.168.4.203
       environment: prod
